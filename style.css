@@ -1,0 +1,102 @@
+
+body{
+	padding-top: 70px;
+	background-color: #F9F1E7;
+	font-family: 'Kiwi Maru', serif;
+}
+
+/*フォント*/
+.bigfont{
+	font-family: 'Bree Serif', serif;
+}
+
+
+/*navについて*/
+.nav1{
+	background-color: #352D21;
+
+	height: 65px;
+}
+
+#navbarNav{
+	background-color: #352d21a3;
+	color: #F9F1E7;
+}
+
+.nav-link{
+	color: #F9F1E7;
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: #8F3232;
+}
+
+.class1{
+	padding-top: 20px;
+}
+
+.navbar{
+
+}
+
+.navbar-toggler {
+	color: #8F3232;
+	background-color: #F9F1E7;
+}
+
+/*#nav_dropdown{
+	background-color: rgb(179, 148, 148);
+	float: right;
+}*/
+
+/*===================================================*/
+.kome{
+	height: 250px;
+	width: 510px;
+}
+
+.margin-1{
+	margin-top: 8px;
+}
+
+.class1{
+	margin-top: 20px;
+}
+
+/*写真のスライド*/
+#slide_button{
+	background-color: rgba(254, 253, 253, 0.317);
+	width: 10px;
+	border-color: rgba(254, 253, 253, 0.317);
+	border-width: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.carousel-inner{
+	background-color: #352D21;
+}
+
+footer{
+	background-color: #352D21;
+	color: #F9F1E7;
+}
+
+.card-body{
+	background-color: #352D21;
+	color: #F9F1E7;
+}
+
+
+/*
+OK
+・idとclass同時指定は可能
+・idは一つだけ、classは複数指定可能
+NG
+・idの複数指定
+・class属性の2回記述
+
+#352D21
+#EEE4CF
+#8F3232
+*/

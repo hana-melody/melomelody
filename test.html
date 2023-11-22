@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>モンブラン --montblanc--</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&Kiwi+Maru&display=swap">
+  </head>
+
+  <body>
+
+  <!--ナビゲーター-->
+    <nav class="navbar navbar-expand-lg navbar-light nav1 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <!--ほーむ画像ー-->
+          <img src="モンブランロゴ.png" width height="50">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" onclick="location.reload();">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Commitment">Commitment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Notice">Notice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Access">Access</a>
+            </li>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <!--写真表示-->
+    <section>
+      <div id="slideee" class="carousel slide" data-ride="carousel" data-wrap="true" data-pause="false" data-interval="3000">
+
+        <!--したの点々-->
+        <div class="carousel-indicators">
+          <button id="slide_button" type="button" data-target="#slideee" data-slide-to="0" class="active"></button>
+          <button id="slide_button" type="button" data-target="#slideee" data-slide-to="1"></button>
+          <button id="slide_button" type="button" data-target="#slideee" data-slide-to="2"></button>
+          <button id="slide_button" type="button" data-target="#slideee" data-slide-to="3"></button>
+          <button id="slide_button" type="button" data-target="#slideee" data-slide-to="4"></button>
+        </div>
+
+        <!--スライド-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="shop1.jpg" class="d-block mx-auto" width="auto" height="400" alt="定食">
+          </div>
+          <div class="carousel-item">
+            <img src="katu.jpg" class="d-block mx-auto" width="auto" height="400" alt="カツカレー">
+          </div>
+          <div class="carousel-item">
+            <img src="pizza.jpg" class="d-block mx-auto" width="auto" height="400" alt="ピザ">
+          </div>
+          <div class="carousel-item">
+            <img src="shop.jpg" class="d-block mx-auto" width="auto" height="400" alt="外観">
+          </div>
+          <div class="carousel-item">
+            <img src="shop3.jpg" class="d-block mx-auto" width="auto" height="400" alt="みんなの顔">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    
+    <section class="container class1" id="Commitment">
+      <div class="row">
+        <div class="col">
+          <h2 class="bigfont">Commitment</h2>
+          <p>私たちのこだわり</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="kome-big.jpg" class="img-fluid kome" alt="お米">
+        </div>
+        <div class="col-sm-6">
+          <h5 class="margin-1">農家家族が営むゲレンデレストラン</h5>
+          <p>
+          国際大会で金賞を受賞した無農薬栽培の南魚沼産コシヒカリ使用<br>
+          野菜は自家製無農薬野菜使用<br>
+          <br>
+          南魚沼産コシヒカリを使用した日本一お米がおいしい定食屋<br>
+          実家のような温かい空間と美味しい食事を提供します<br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="container class1" id="Menu">
+      <div class="row">
+        <div class="col">
+          <h2 class="bigfont">Menu</h2>
+          <p>おすすめのメニュー</p>
+        </div>
+      </div>
+
+      <div class="card-group ">
+        <div class="card">
+          <img src="yakitei.jpg" class="card-img-top img-fluid" alt="焼肉定食" width="187.5" height="250">
+          <div class="card-body">
+            <h5 class="card-title">焼肉定食</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="tontei.jpg" class="card-img-top img-fluid" alt="とんかつ定食" width="187.5" height="250">
+          <div class="card-body">
+            <h5 class="card-title">とんかつ定食</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="cake.jpg" class="card-img-top img-fluid" alt="本日のケーキ＆珈琲" width="187.5" height="250">
+          <div class="card-body">
+            <h5 class="card-title">本日のケーキ＆珈琲</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p>他にもカツカレーや自家製のお餅、ハニートーストなど……<br>
+      期間限定メニューの用意もあります♪</p>
+    </section>
+
+    <section class="container class1" id="Notice">
+      <div class="row">
+        <div class="col">
+          <h2 class="bigfont">Notice</h2>
+          <p>お知らせ</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container class1" id="Access">
+      <div class="row">
+        <div class="col">
+          <h2 class="bigfont">Access</h2>
+          <p>アクセス</p>
+        </div>
+      </div>
+      <p>石打丸山スキー場の中央口、サンライズエクスプレスを降りて目の前</p>
+    </section>
+
+
+    <footer class="container-fluid text-center">
+      <p>Copyright (C) Hana.</p>
+    </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  </body>
+</html>
